@@ -1,0 +1,61 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+nav-link .active {
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+select {
+  -webkit-appearance: menulist !important;
+}
+
+thead > tr > td {
+  text-align: center;
+}
+
+table.text-center > tbody > tr > td > input {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .col-md-0-5 {
+    flex: 0 0 auto;
+    width: 4.166666667%;
+  }
+
+  .col-md-1-5 {
+    flex: 0 0 auto;
+    width: 12.5%;
+  }
+}
+
+header {
+  .dropdown-toggle.btn.btn-primary {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .dropdown-item a {
+    text-decoration: none;
+    color: #000;
+  }
+}
